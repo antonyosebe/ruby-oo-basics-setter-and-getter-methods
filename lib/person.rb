@@ -1,18 +1,18 @@
 require "pry"
 class Person
-    # getter
+    # setter
     def name=(name)
         @name=name
     end
-    # setter
+    # getter
     def name
         @name
     end
-    # getter
+    # setter
     def job=(job)
         @job=job
     end
-    # setter
+    # getter
     def job
         @job
     end
